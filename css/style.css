@@ -1,0 +1,326 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: *;
+    background-color: #e06961;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+
+img {
+
+    height: auto;
+    z-index: 2;
+
+}
+
+
+#nav {
+
+    text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    ;
+
+}
+
+
+
+
+/* ///// Headers and Subheaders ///// */
+
+h1.portfolio_header {
+
+    font-size: 50px;
+    color: #842024;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 112px 12px 0px 60px;
+}
+
+h2.portfolio_sub {
+
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+    margin: -10px 12px 12px 60px;
+}
+
+h1.aboutme_header {
+
+    font-size: 50px;
+    color: #842024;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2.aboutme_sub {
+
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+    margin: -10px 12px 12px 0px;
+}
+
+.bodytext {
+
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+div.spacer {
+    height: 34px;
+}
+
+div.content {
+    margin: 374px;
+    background-color: gray;
+}
+
+ul {
+
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 1px;
+    font-size: 20px;
+    z-index: 1;
+    position: fixed;
+    width: 95%;
+
+}
+
+li.menulist {
+
+    float: right;
+
+}
+
+
+li a {
+
+    font-color: #555555;
+    display: block;
+    text-align: left;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+/* Links */
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #842024;
+}
+
+a.:active {
+    color: #ff9999;
+}
+
+a.bodytext:link {
+    color: #842024;
+}
+
+a,
+p:visited {
+    color: #842024;
+}
+
+a:hover {
+    color: #842024;
+}
+
+a:active {
+    color: #ff9999;
+}
+
+
+
+
+.logo {
+
+    /* text-transform: capitalize; */
+    font-size: 20px;
+    float: left;
+    margin-left: 45px;
+}
+
+
+/* Gallery Effects */
+
+.gallery {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Common style */
+.gallery__item {
+    position: relative;
+    margin: 30px;
+    min-width: 250px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gallery__img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+
+}
+
+.gallery__summary {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+}
+
+.gallery__summary:before,
+.gallery__summary:after {
+    pointer-events: none;
+}
+
+.gallery__summary,
+.gallery__summary>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.gallery__summary>a {
+    z-index: -1;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.gallery__title {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.gallery__title span {
+    font-weight: 800;
+}
+
+.gallery__title,
+.gallery__description {
+    margin: 0;
+}
+
+.gallery__description {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+.gallery__item {
+    background: #030c17;
+}
+
+.gallery__img {
+
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+.gallery__summary:before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: 3px solid #fff;
+    background-color: #842024;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.4, 1.4, 1);
+    transform: scale3d(1.4, 1.4, 1);
+}
+
+.gallery__title {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s, opacity 0.35s;
+    opacity: 0;
+}
+
+.gallery__description {
+    padding: 1em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.gallery__item:hover .gallery__title {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.gallery__item:hover .gallery__summary:before,
+.gallery__item:hover .gallery__description {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+.gallery__item:hover .gallery__summary {
+    background-color: rgba(58, 52, 42, 0);
+}
+
+.gallery__item:hover .gallery__img {
+    opacity: 0.4;
+}
+
+/* Media queries */
+@media screen and (max-width: 520px) {
+
+    .gallery {
+        display: block;
+        flex-wrap: column;
+        justify-content: center;
+    }
+
+    .gallery__item {
+        width: 100%;
+    }
+}
