@@ -322,6 +322,47 @@ a:active {
     }
 
     .gallery__item {
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
+
+    h1.portfolio_header {
+
+        font-size: 40px;
+        color: #842024;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 112px 12px 0px 60px;
+    }
+    
+    h2.portfolio_sub {
+    
+        font-size: 22px;
+        color: white;
+        font-weight: 600;
+        /*text-transform: uppercase;*/
+        margin: -6px 12px 12px 60px;
+    }
+    
+    h1.aboutme_header {
+    
+        font-size: 40px;
+        color: #842024;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    h2.aboutme_sub {
+    
+        font-size: 22px;
+        color: white;
+        font-weight: 600;
+        /*text-transform: uppercase;*/
+        margin: -6px 12px 12px 0px;
+    }
+    
+
+
 }
