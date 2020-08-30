@@ -6,12 +6,12 @@
 	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:#FFFFFF;}
 </style>
-<line class="st0" x1="-9" y1="2.2" x2="904" y2="2.2"/>
+<line class="st0" x1="67" y1="17.4" x2="832" y2="17.4"/>
 <g>
 	<g>
-		<line class="st0" x1="591.4" y1="2.4" x2="591.4" y2="126.9"/>
+		<line class="st0" x1="591.4" y1="17.4" x2="591.4" y2="141.9"/>
 		<g>
-			<polygon class="st1" points="582.2,127 591.4,144.3 600.4,127 			"/>
+			<polygon class="st1" points="582.2,141 591.4,158.3 600.4,141 			"/>
 		</g>
 	</g>
 </g>

@@ -276,13 +276,14 @@ a:active {
 }
 
 .gallery__title {
-    margin: 15% 0 10px 0;
+    margin: 15% 0 0 0;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s, opacity 0.35s;
     opacity: 0;
 }
 
 .gallery__description {
+    margin: 0 0 20% 0;
     padding: 1em;
     opacity: 1;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
