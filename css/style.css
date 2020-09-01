@@ -78,6 +78,14 @@ h2.aboutme_sub {
     font-weight: lighter;
 }
 
+a.bodytext:link {
+
+    font-size: 16px;
+    color: red;
+    font-weight: lighter;
+}
+
+
 
 div.spacer {
     height: 34px;
@@ -116,7 +124,7 @@ li a {
     text-decoration: none;
 }
 
-/* Links */
+/* Menu Links */
 
 a:link {
     color: white;
@@ -134,9 +142,6 @@ a.:active {
     color: #ff9999;
 }
 
-a.bodytext:link {
-    color: #842024;
-}
 
 a,
 p:visited {
