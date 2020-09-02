@@ -20,6 +20,8 @@ img {
 
 }
 
+
+
 #home_section {
 
 
@@ -396,6 +398,10 @@ opacity:1;
         margin: -6px 12px 12px 0px;
     }
     
+    .img-fluid {
 
+        margin: 20px 20px -50px 20px;
+
+    }
 
 }
