@@ -1,17 +1,16 @@
-# SeePetulaCode.github.io - Portfolio Page
-
+# Portfolio Page
 
 ### Version 3 - 9/2020 - Present
 
 Completed official UX Engineering portfolio (working on responsive/mobile).
-
-| Screen Shot                                                  | Features                                                     |
-| :----------------------------------------------------------- | ------------------------------------------------------------ |
-| <img align="left" width="700" src="https://res.cloudinary.com/b1917/image/upload/v1599289526/portfolio_screenshot_yhgqli.png" style="zoom:50%;" /> | **Tools/Code: **HTML, CSS, JS, JQuery, Bootstrap, <br />FontAwesome, Google Fonts and <br />Lity Lightbox(♥︎ Because it is very lightweight <br />and elegant. I used the Lity on resume and <br />about me links to prevent annoying popups <br />and _blank target pages ).<br /><br />**Features: **<br />In Progress<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> |
+http://seepetulacode.github.io/
 
 
 
-------
+**Tools/Code: **HTML, CSS, JS, JQuery, Bootstrap, Font Awesome, Google Fonts and Lity Lightbox.
+**Features: **In Progress
+
+<img align="left" width="700" src="https://res.cloudinary.com/b1917/image/upload/v1599289526/portfolio_screenshot_yhgqli.png" style="zoom:50%;" />
 
 
 
