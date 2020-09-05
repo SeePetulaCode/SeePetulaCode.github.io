@@ -1,5 +1,11 @@
 # SeePetulaCode.github.io
 
+
+### Version 3 9/2020 - Present
+Completed official UX Engineering portfolio.(working on responsive/mobile)
+
+
+
 ### Version 2 8/2020 - Present
 Adapted the design and structure to be my official UX Engineering portfolio.
 
