@@ -10,7 +10,13 @@ http://seepetulacode.github.io/
 **Tools/Code: **HTML, CSS, JS, JQuery, Bootstrap, Font Awesome, Google Fonts and Lity Lightbox.
 **Features: **In Progress
 
-<img align="left" width="700" src="https://res.cloudinary.com/b1917/image/upload/v1599289526/portfolio_screenshot_yhgqli.png" style="zoom:50%;" />
+<img src="https://res.cloudinary.com/b1917/image/upload/v1599289526/portfolio_screenshot_yhgqli.png" style="width:50%;" />
+
+
+
+
+
+
 
 
 
