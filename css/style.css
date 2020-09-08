@@ -58,7 +58,7 @@ h2.portfolio_sub {
     color: white;
     font-weight: 600;
     /*text-transform: uppercase;*/
-    margin: -10px 12px 12px 60px;
+    margin: 0px 12px 20px 60px;
 }
 
 h1.aboutme_header {
@@ -76,7 +76,7 @@ h2.aboutme_sub {
     color: white;
     font-weight: 600;
     /*text-transform: uppercase;*/
-    margin: -10px 12px 12px 0px;
+    margin: 0px 12px 20px 0px;
 }
 
 .bodytext {
