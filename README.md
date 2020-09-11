@@ -1,6 +1,6 @@
 # Portfolio Page
 
-### Version 3 - 9/2020 - Present
+### Version 3 - 9/2020 -Present
 
 Completed official UX Engineering portfolio (working on responsive/mobile).
 <br /> http://seepetulacode.github.io/
