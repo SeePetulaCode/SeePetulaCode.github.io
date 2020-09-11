@@ -8,6 +8,7 @@ Completed official UX Engineering portfolio (working on responsive/mobile).
 
 
 **Tools/Code**: HTML, CSS, JS, JQuery, Bootstrap, Font Awesome, Google Fonts and Lity Lightbox.<br />
+
 **Features**: In Progress.
 
 <img src="https://res.cloudinary.com/b1917/image/upload/c_scale,w_835/v1599293607/portfolio_screenshot_qbkx44.png" width="600"/>
