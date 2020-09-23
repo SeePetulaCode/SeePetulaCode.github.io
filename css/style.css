@@ -157,10 +157,12 @@ a.:active {
 
 a.bodylinks:link {
     color: #842024;
+    text-decoration: underline;
 }
 
 a.bodylinks:visited {
-    color: #842024;
+    color:#842024;
+    text-decoration: underline;
 }
 
 
