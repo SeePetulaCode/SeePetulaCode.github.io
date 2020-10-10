@@ -156,11 +156,16 @@ a.:active {
 /* Body Links */
 
 a.bodylinks:link {
-    color: #842024;
+    color: white;
     text-decoration: underline;
 }
 
 a.bodylinks:visited {
+    color:white;
+    text-decoration: underline;
+}
+
+a.bodylinks:hover{
     color:#842024;
     text-decoration: underline;
 }
